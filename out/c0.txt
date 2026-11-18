@@ -1,0 +1,2 @@
+$ go run ./c0
+pages: 300   time: 15.299s   most requests at once: 1

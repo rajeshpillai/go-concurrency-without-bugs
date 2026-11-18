@@ -1,0 +1,3 @@
+$ go run ./c5 -trap
+gave up on /page/137: Get "http://127.0.0.1:PORT/page/137": context deadline exceeded
+pages: 300   time: 2.151s   most requests at once: 8   most goroutines: 47

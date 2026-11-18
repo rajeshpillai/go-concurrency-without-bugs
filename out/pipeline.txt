@@ -1,0 +1,2 @@
+$ go run ./pipeline
+results: 100   time: 1.388s   goroutines before: 2   after: 2

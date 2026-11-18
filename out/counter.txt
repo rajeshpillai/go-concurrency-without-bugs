@@ -1,0 +1,10 @@
+$ go test -bench . -count 3 ./counter
+BenchmarkMutex-12      	 4607828	       268.8 ns/op
+BenchmarkMutex-12      	 4364668	       242.7 ns/op
+BenchmarkMutex-12      	 4843232	       221.5 ns/op
+BenchmarkAtomic-12     	20808751	        58.94 ns/op
+BenchmarkAtomic-12     	19624869	        55.84 ns/op
+BenchmarkAtomic-12     	22467840	        56.17 ns/op
+BenchmarkChannel-12    	 4981440	       224.4 ns/op
+BenchmarkChannel-12    	 5236766	       230.5 ns/op
+BenchmarkChannel-12    	 5189132	       233.4 ns/op

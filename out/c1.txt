@@ -1,0 +1,6 @@
+$ go run ./c1
+fatal error: concurrent map writes
+$ go run ./c1
+fatal error: concurrent map read and map write
+$ go run ./c1
+fatal error: concurrent map read and map write

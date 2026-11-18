@@ -1,0 +1,5 @@
+$ go test -v ./retry
+    retry_test.go:29: succeeded on try 4 after waiting 7s (fake time)
+--- PASS: TestRetryWaits (0.00s)
+PASS
+ok  	crawlshelf/retry	0.003s

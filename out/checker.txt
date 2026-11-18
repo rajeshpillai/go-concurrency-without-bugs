@@ -1,0 +1,5 @@
+$ go run ./checker
+checked: 300 of 300   time: 1.977s   most requests at once: 8
+$ go run ./checker -trap
+checked: 269 of 300   time: 1.882s   most requests at once: 8
+stopped by: Get "http://127.0.0.1:PORT/page/137": context deadline exceeded

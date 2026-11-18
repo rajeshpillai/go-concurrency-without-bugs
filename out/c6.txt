@@ -1,0 +1,4 @@
+$ go run ./c6
+pages: 300   time: 6.072s   most requests at once: 4   most goroutines: 28
+$ go run ./c6 -workers 32
+pages: 300   time: 6.072s   most requests at once: 4   most goroutines: 52

@@ -1,0 +1,4 @@
+$ go run ./c2
+pages: 300   time: 364ms   most requests at once: 137   most goroutines: 692
+$ go run -race ./c2
+pages: 300   time: 407ms   most requests at once: 140   most goroutines: 707

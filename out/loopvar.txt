@@ -1,0 +1,4 @@
+$ go run ./loopvar          # go.mod says go 1.26
+the goroutines saw: [0 1 2]
+$ go run ./loopvar_old      # go.mod says go 1.21
+the goroutines saw: [3 3 3]

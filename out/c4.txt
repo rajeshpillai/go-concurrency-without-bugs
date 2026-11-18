@@ -1,0 +1,2 @@
+$ go run ./c4
+pages: 300   time: 2s   most requests at once: 8   most goroutines: 50

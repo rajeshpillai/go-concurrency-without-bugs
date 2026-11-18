@@ -1,0 +1,4 @@
+$ go run ./ctxtree
+crawl  context canceled
+page   context canceled
+retry  context canceled

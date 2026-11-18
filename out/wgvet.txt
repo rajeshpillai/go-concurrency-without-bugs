@@ -1,0 +1,2 @@
+$ go vet ./wgvet
+wgvet/main.go:13:10: WaitGroup.Add called from inside new goroutine

@@ -1,0 +1,4 @@
+$ go run ./selects
+gave up after 500ms
+queued page 1
+queue full, dropped page 2

@@ -1,0 +1,2 @@
+$ go run ./semaphore
+pages: 300   time: 4.011s   most requests at once: 4

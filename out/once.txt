@@ -1,0 +1,2 @@
+$ go run ./once
+50 goroutines asked for the config. It was loaded 1 time.

@@ -1,0 +1,4 @@
+$ go run ./leak
+goroutines before: 1   after 1,000 calls: 2001
+$ go run ./leak -fixed
+goroutines before: 1   after 1,000 calls: 1

@@ -1,0 +1,2 @@
+$ go run ./c5 -workers 32
+pages: 300   time: 627ms   most requests at once: 32   most goroutines: 171

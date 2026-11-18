@@ -1,0 +1,6 @@
+$ go run ./closing
+got page 1
+got page 2
+after close: "", ok=false
+$ go run ./closing send
+panic: send on closed channel

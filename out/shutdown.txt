@@ -1,0 +1,2 @@
+$ go run ./shutdown     # then, 2 seconds later, Ctrl+C
+interrupted after 40 pages: the pages in flight finished, then it stopped cleanly

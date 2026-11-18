@@ -1,0 +1,6 @@
+$ go run ./c4 -trap -stuck 5s
+still running after 5s. goroutines by what they wait for:
+    1  running
+    6  select
+    7  IO wait
+    8  chan receive

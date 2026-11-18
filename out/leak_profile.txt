@@ -1,0 +1,5 @@
+$ GOEXPERIMENT=goroutineleakprofile go run ./leak
+goroutines before: 1   after 1,000 calls: 2001
+goroutineleak profile: total 2000
+2000 @ 0x… 0x… 0x… 0x… 0x…
+#	0x…	main.fastest.func1+0x…	./leak/main.go:28

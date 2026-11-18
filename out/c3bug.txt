@@ -1,0 +1,6 @@
+$ go run ./c3bug
+still running after 5s. goroutines by what they wait for:
+    1  running
+    9  chan send
+    5  IO wait
+    2  select
